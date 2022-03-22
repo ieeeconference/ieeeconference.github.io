@@ -1,0 +1,18 @@
+.ieeLogo {
+  height: 40px;
+}
+.ilahiaLogo {
+  height: 40px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}

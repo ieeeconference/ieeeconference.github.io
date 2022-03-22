@@ -1,0 +1,21 @@
+.manepge{
+    display: flex;
+    align-items: center;
+}
+.left1{
+    width: 60%;
+    align-items: center;
+    margin-top: 7vh;
+}
+.head111 p{
+    justify-content: center  ;
+    font-size: larger;
+}
+.rigth11{
+    align-items: center;
+    margin-top: 7vh;
+    padding-left: 2vh;
+}
+.head111 h1{
+    align-items: center;
+}
