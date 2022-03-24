@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import './navbar.css';
 import logo from '../../images/ieee3.png';
 import { Link } from 'react-router-dom';
-import { ArrowDownward, ArrowDropDown, ArrowDropUp, ArrowUpward, Close, Menu } from '@mui/icons-material';
+import { ArrowDropDown, ArrowDropUp,  Close, Menu } from '@mui/icons-material';
 const Navbar = () => {
     const [open,setOpen]=useState(false)
     const [isScrolled, setIsScrolled] = useState(false);
     const [isOpen,setIsOpen] = useState(false)
-    const [commitee,setCommitee] = useState(false)
     const [isHotel,setIsHotel] = useState(false)
     const [thaqu,setThaqu] =useState(false)
     const [thaqu1,setThaqu1] =useState(false)
@@ -27,15 +26,8 @@ const Navbar = () => {
                   <Link to="/" className='link'>
                   <span className="navbarItems">Home</span>
                   </Link>
-            <Link to="/" className='link'>
-            <span className="navbarItems" onMouseEnter={() => setCommitee(true)} onMouseLeave={() => setCommitee(false)}>Committee
-            {commitee &&(
-                  <div className="options">
-                      <Link to="/oc" className='link'><span className='optionsLink'>Organizing Committee</span></Link>
-                      
-                  </div>
-              ) }
-            </span>
+            <Link to="/oc" className='link'>
+            <span className="navbarItems">Committee </span>
             </Link>
         
               <Link to="/" className='link'>
@@ -43,7 +35,7 @@ const Navbar = () => {
               {isOpen &&(
                   <div className="options">
                      <Link to="/cfsp" classname='link'> <span className='optionsLink'>Call For Papers</span></Link>
-                     <Link to="/cfwp" classname='link'> <span className='optionsLink'>Author Instructions</span></Link>
+                     <Link to="/cfwp" classname='link'> <span className='optionsLink'>Conference Tracks</span></Link>
                     
                   </div>
               ) }
@@ -60,11 +52,6 @@ const Navbar = () => {
                       <Link to="/venue" className='link'><span className='optionsLink'>Conference Venue</span></Link>
                       <Link to="/accomadation" className='link'><span className='optionsLink'>Accomodation</span></Link>
                       <Link to="/mainattraction" className='link'><span className='optionsLink'>Main Attraction</span></Link>
-                      
-                     
-                      
-
-
                   </div>
               ) }
             </span>

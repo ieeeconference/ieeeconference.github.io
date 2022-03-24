@@ -1,5 +1,4 @@
 .home {
-  background-color: #358597;
   color: rgb(255, 255, 255);
 }
 .containerHome {
@@ -18,7 +17,6 @@
   flex-direction: column;
   left: 50%;
   margin: auto;
-  background-color: #f4a896;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
@@ -29,8 +27,13 @@
 .headingName {
   font-size: 25px;
   font-weight: 900;
+  color:#0E0E0E;
   margin-bottom: 30px;
-  text-decoration: overline;
+}
+.para{
+  text-align: justify;
+line-height: 23px;
+  font-size: 19px;
 }
 
 @media only screen and (max-width: 750px) {

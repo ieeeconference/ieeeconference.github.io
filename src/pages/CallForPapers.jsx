@@ -7,7 +7,7 @@ const Callforpapers = () => {
         <div>
             <Topbar/>
             <Navbar/>
-            hy i am call for papper
+            call for paper
             
         </div>
     );

@@ -71,7 +71,6 @@ const Reg = () => {
                             </tr>
 
                         </table>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corrupti nobis nesciunt, maiores culpa laudantium dolor repudiandae praesentium vitae perferendis velit iure. Repudiandae voluptatibus quos quidem! Reprehenderit corporis quia modi?</p>
 
                     </div>
 

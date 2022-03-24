@@ -3,7 +3,7 @@
     align-items: center;
 }
 .left1{
-    width: 60%;
+    width: 70%;
     align-items: center;
     margin-top: 7vh;
 }
@@ -17,5 +17,10 @@
     padding-left: 2vh;
 }
 .head111 h1{
+    margin-left: 18px;
     align-items: center;
+}
+.para1 {
+    margin-left: 18px;
+    text-align: justify;
 }

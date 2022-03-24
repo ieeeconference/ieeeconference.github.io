@@ -1,0 +1,24 @@
+.contactPage{
+    text-align: center;
+}
+.contactPage h1{
+    font-size: 36px;
+    margin-block: 9px;
+}
+.contactPage .contactPeoples{
+    display: flex;
+    margin-block: 36px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    
+}
+.contactPage .contactPeoples .contactPeople{
+    display: flex;
+    margin-inline: 18px;
+    flex-direction: column;
+}
+.contactPage .contactPeoples .contactPeople p{
+    color: black;
+    font-size: 18px;
+}

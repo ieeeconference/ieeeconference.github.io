@@ -1,0 +1,18 @@
+.track{
+    display: flex;
+    flex-direction: column;
+    padding-block: 18px;
+    margin-inline-start:36px ;
+    margin-inline-end: 36px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 6px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #20272e;
+}
+.trackHead{
+    text-align: center;
+    margin-block: 18px;
+    font-size: 36px;
+}
