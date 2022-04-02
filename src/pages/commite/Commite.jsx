@@ -104,7 +104,7 @@ const Commite = () => {
                         Proffessor, IIT Madras
                         <h3>Dr. Isha TB</h3>
                         Professor, Amritha Vishvavidya peetham, Coimbatore
-                        <h3>Dr. John Jones</h3>
+                        <h3>Dr. John Jose</h3>
                         Assistant Professor, IIT Guwahati
                         <h3>Dr. Barakkath Nisha U</h3>
                         Associate Professor, SreeKrishna College of Engineering, Coimbatore
@@ -135,13 +135,21 @@ const Commite = () => {
                         Professor, Dept of Mechanical Engineering
                         <h3>Dr. Sujit Kumar P S</h3>
                         Professor, Dept of CSE
+                        <h3>Dr. Vadhanakumari S</h3>
+                        Professor, Dept of CSE
+                        <h3>Dr. Syed Ibrahim</h3>
+                        Assocoiate Professor, Civil Engineering
+                        <h3>Dr. Abhiraj T.K</h3>
+                        Associate Professor, Department of EEE
+                        <h3>Dr. Sachin Gee Paul</h3>
+                        Department of EEE
+                        <h3>Dr. A Jahubar Ali</h3>
+                        Professor, Department of Science and Humanities
                         <br/><br/><br/><br/><br/><br/>
                         <br/><br/><br/><br/><br/><br/>
                         <br/><br/><br/><br/><br/><br/>
                         <br/><br/><br/><br/><br/><br/>
-                        <br/><br/><br/><br/><br/><br/>
-                        <br/><br/><br/><br/><br/><br/>
-                        <br/><br/><br/><br/><br/><br/>
+                        <br/><br/><br/>
                     </li>
                     <li>
                         <h2>Organizing Committee</h2>

@@ -50,8 +50,6 @@ const Navbar = () => {
                       <Link to="/aboutkerala" className='link '><span className='optionsLink'>About Kerala</span></Link>
                       <Link to="/godsowncountry" className='link'><span className='optionsLink'>Travelling To God's Own Country</span></Link>
                       <Link to="/venue" className='link'><span className='optionsLink'>Conference Venue</span></Link>
-                      <Link to="/accomadation" className='link'><span className='optionsLink'>Accomodation</span></Link>
-                      <Link to="/mainattraction" className='link'><span className='optionsLink'>Main Attraction</span></Link>
                   </div>
               ) }
             </span>
@@ -88,15 +86,8 @@ const Navbar = () => {
                 <li className="menuitem">
               
                 <div className='menuItemdiv'>
-                    <span className="menuItems"  onClick={()=>setThaqu1(!thaqu1)}>Commities</span>
-                    {!thaqu1?<ArrowDropDown />:<ArrowDropUp/>}
+                    <span className="menuItems">Commities</span>
             </div>
-            {thaqu1&&(
-                    <div className="commitee1">
-                    <span className="commitee2">Organizing Committee</span>
-                    <span className="commitee2">Technical Programme Committee</span>
-                    </div>
-                   )}
                 </li>
                 <li className="menuitem">
               
@@ -133,9 +124,7 @@ const Navbar = () => {
               <span className="commitee2">Travelling To Gods On Country</span>
               <span className="commitee2">Conference Venue</span>
               <span className="commitee2">Important Dates</span>
-              <span className="commitee2">Accomodation</span>
               <span className="commitee2">About Kerala</span>
-              <span className="commitee2">Main Attraction</span>
               </div>
                         )}
           </li>
